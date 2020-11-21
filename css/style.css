@@ -1,0 +1,478 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+
+    overflow-x: hidden; 
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+/*************************************************
+********** Header Section CSS Start  *************
+**************************************************/
+.header-section {
+    width: 100%;
+    background: url(../images/Hero.png) center top no-repeat;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.header-section .navbar .logo {
+    width: 120px;
+}
+
+.header-section .navbar-nav .nav-item {
+    padding-left: 15px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    background: url(../images/hover.png) center bottom no-repeat;
+    color: #511de5;
+
+}
+
+.header-section .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.header-section .navbar-light .navbar-nav .nav-link:hover {
+
+    background: url(../images/hover.png) center bottom no-repeat;
+    color: #511de5;
+}
+
+.header-section .right-menu .btn-link {
+    font-weight: 500;
+    color: black;
+    padding-right: 20px;
+}
+
+.header-section .right-menu .btn-link:hover {
+    text-decoration: none;
+    background: url(../images/hover.png) center bottom no-repeat;
+    color: #511de5;
+}
+
+
+.header-section .right-menu .btn-info {
+    font-weight: 500;
+    padding: 7px 35px;
+    border-radius: 30px;
+    background: linear-gradient(to left, #209bfe, #511de5 60%);
+    border: 0px;
+}
+
+.header-section .right-menu .btn-info:hover {
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #511de5;
+    color: #511de5;
+    transition: 1s;
+}
+
+/*************************************************
+*********** Header Section CSS End  **************
+**************************************************/
+
+/*************************************************
+********** Banner Section CSS Start  *************
+**************************************************/
+.banner-inner {
+    text-align: right;
+    padding: 100px 0px;
+}
+
+.banner .banner-inner h2 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+
+}
+
+.banner .banner-inner strong {
+    color: #511de5;
+}
+
+.header-section .banner .banner-inner .btn-light {
+    color: #212529;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 6px 15px;
+}
+
+/*************************************************
+*********** Banner Section CSS End  **************
+**************************************************/
+
+/*************************************************
+********** highlight Section CSS Start  **********
+**************************************************/
+
+.highlight {
+    width: 100%;
+    background: url(../images/highlight_area.png) center top no-repeat;
+    background-size: cover;
+    /* padding: 30px 0px; */
+    margin-top: -50px;
+    padding-bottom: 35px;
+}
+
+.highlight-inner {
+    width: 100%;
+    text-align: center;
+
+}
+
+.highlight-inner h4 {
+    width: 100%;
+    color: #fff;
+    padding: 20px 0px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 65px;
+
+
+}
+
+/*************************************************
+********** highlight Section CSS End  ************
+**************************************************/
+
+/*************************************************
+************ feture Section CSS Start  ***********
+**************************************************/
+.feture {
+    width: 100%;
+    padding: 110px 0px;
+}
+
+.feture-inner {
+    width: 90%;
+    padding: 90px 50px;
+    margin: 0px auto;
+    box-shadow: 1px 4px 10px #ccc;
+    background: url(../images/girl.png) center bottom no-repeat;
+    background-size: cover;
+
+}
+
+.feture-inner h2 {
+    width: 100%;
+    color: #000;
+    font-size: 55px;
+    line-height: 60px;
+    padding: 20px 0px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.feture-inner p {
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 5px 0px;
+    font-weight: 400;
+}
+
+.feture-inner-text p strong {
+    width: 100%;
+    background: linear-gradient(to left, #209bfe, #511de5 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 90px;
+    line-height: 105px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.feture-inner-text p span {
+    width: 100%;
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 20px;
+    padding: 10px 0px;
+    font-weight: 700;
+}
+
+.client-logo {
+    width: 90%;
+    margin: 50px auto 30px;
+
+}
+
+/*************************************************
+************ feture Section CSS End  *************
+**************************************************/
+
+/*************************************************
+************ intro  Section CSS Start  ***********
+**************************************************/
+.intro{
+    width: 100%;
+    background: url(../images/rectangle-8.png) center top no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+.intro-left{
+    margin-top: 130px;
+    width: 100%;
+    background: url(../images/quote.png) center top no-repeat;
+    padding: 190px 80px;
+
+}
+.intro-left p{
+    width: 100%;
+    font-size: 15px;
+    color: #fff;
+    margin-top: -20px;
+    margin-left: 85px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+ 
+}
+
+
+.intro-right{
+    width: 100%;
+    margin-top: 250px;
+    margin-left: 20px;
+}
+.intro-right h2 {
+    font-size: 45px;
+    width: 100%;
+    line-height: 50px;
+    font-weight: 700;
+}
+
+
+.intro .intro-right .btn-light {
+    color: #212529;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+    letter-spacing: 2px;
+    border-radius: 30px;
+    padding: 6px 15px;
+    margin-top: 20px;
+    
+}
+
+
+/*************************************************
+************ intro  Section CSS End  *************
+**************************************************/
+
+/*************************************************
+********** effciency Section CSS Start  **********
+**************************************************/
+.effciency{
+    width: 100%;
+    padding-top: 50px;
+}
+.effciency-right{
+    width: 100%;
+    background: url(../images/effciency-right.png) center top no-repeat;
+    background-size: cover;
+}
+.effciency .effciency-left ul{
+    list-style: none;   
+}
+.effciency h2 {
+    font-size: 40px;
+    width: 100%;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.effciency .effciency-left .btn-info {
+    font-weight: 200;
+    padding: 8  px 35px;
+    border-radius: 30px;
+    background: linear-gradient(to left, #209bfe, #511de5 60%);
+    border: 0px;
+    letter-spacing: 2px;
+}
+
+
+
+/*************************************************
+*********** effciency  Section CSS End  **********
+**************************************************/
+
+/*************************************************
+********** design Section CSS Start  **********
+**************************************************/
+.design{
+    width: 100%;
+    padding-top: 70px;
+    background-color: #fcfcfc;
+    text-align: center;
+    border-bottom: 1px solid #cccccc;
+    border-top: 1px solid #cccccc;
+}
+
+.design h2{
+    padding-bottom: 20px;
+}
+
+.design .design-inner{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+
+/*************************************************
+*********** design Section CSS End  **********
+**************************************************/
+
+/*************************************************
+********** inspirational Section CSS Start  **********
+**************************************************/
+.inspirational{
+    width: 100%;
+    padding-bottom: 50px;
+}
+.inspirational .inspirational_heading h1{
+
+    margin-top: 50px;
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 30px;
+}
+.inspirational_inner{
+
+    background: url(../images/pro_bg.png)center top no-repeat;
+    background-attachment: cover;
+    text-align: center;
+    padding: 30px 0px;
+
+}
+.inspirational .inspirational_inner h4{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    color: rgb(150, 150, 150);
+}
+
+.inspirational .inspirational_inner h4:hover{
+    color:  #511de5;
+    
+}
+
+.inspirational .inspirational_inner img{
+    margin-top: 120px;
+}
+.inspirational .inspirational_inner h5{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/*************************************************
+*********** inspirational Section CSS End  **********
+**************************************************/
+
+/*************************************************
+************* faq Section CSS Start  *************
+**************************************************/
+
+.faq{
+    width: 100%;
+}
+
+.faq h1{
+
+    margin-top: 72px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 48px;
+    padding-bottom: 72px;
+}
+.faq .faq-inner{
+    width: 90%;
+    padding: 90px 50px;
+    margin: 0px auto;
+    box-shadow: 1px 4px 10px #ccc;
+    background-color: #fff;
+    background-size: cover;
+
+}
+.faq .faq-inner ul{
+    list-style: none;
+    font-size: 16px;
+
+}
+.faq .faq-inner h5{
+    color: #511de5;
+
+}
+
+.faq .container .row .line-img{
+  
+}
+
+/*************************************************
+************** faq Section CSS End  **************
+**************************************************/
+
+/*************************************************
+************ footer Section CSS Start  ************
+**************************************************/
+
+.faq img{
+    margin-top: -550px;
+    margin-left: -200px;
+}
+
+
+.faq .container .row .footer-left{
+    text-decoration: none;
+    color: white;
+    margin-top: 60px;
+}
+.faq .container .row .footer-left a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+.faq .container .row .footer-right{
+    
+    color: white;
+    text-align: right;
+}
+
+/*************************************************
+*************  footer Section CSS End  ************
+**************************************************/
